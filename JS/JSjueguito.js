@@ -6,7 +6,11 @@ window.onload = function(){
     }
 
     if(ctx){
-        alert("su navegador soporta canvas")
+        //definimos colores y cuadrado
+        ctx.fillStyle = "yellow";
+        ctx.strokeStyle = "#FF0000";
+        ctx.lineWidth = "5px";
+        ctx.fillRect(50, 50, 100, 100);
     }else{
         alert("su navegador no soporta canvas")
     }
