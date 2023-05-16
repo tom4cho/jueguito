@@ -8,9 +8,10 @@ window.onload = function(){
     if(ctx){
         //definimos colores y cuadrado
         ctx.fillStyle = "yellow";
-        ctx.strokeStyle = "#FF0000";
-        ctx.lineWidth = "5px";
+        ctx.strokeStyle = "#ff0000";
+        ctx.lineWidth = 5;
         ctx.fillRect(50, 50, 100, 100);
+        ctx.strokeRect(50, 50, 100, 100);
     }else{
         alert("su navegador no soporta canvas")
     }
