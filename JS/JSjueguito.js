@@ -6,7 +6,12 @@ window.onload = function(){
     }
 
     if(ctx){
-        alert("su navegador soporta canvas")
+        //definiendo primer cubos
+        ctx.fillStyle = "#FF0000";
+        ctx.strokeStyle = "#FFAAFF";
+        ctx.lineWidth = 5;
+        ctx.fillRect(50, 50, 150, 150);
+        ctx.strokeRect(50, 50, 150, 150);
     }else{
         alert("su navegador no soporta canvas")
     }
